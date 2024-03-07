@@ -1,7 +1,6 @@
 package questapp.abk.business.concrete;
 
 import lombok.AllArgsConstructor;
-import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 import questapp.abk.business.abstracts.UserService;
 import questapp.abk.business.requests.user.CreateAUserRequest;
@@ -11,9 +10,7 @@ import questapp.abk.business.response.user.GetByUserIdResponse;
 import questapp.abk.core.utilities.mappers.ModelMapperService;
 import questapp.abk.dao.abstracts.UserRepository;
 import questapp.abk.entities.User;
-
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 @AllArgsConstructor

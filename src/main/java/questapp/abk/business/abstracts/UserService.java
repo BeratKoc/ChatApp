@@ -4,7 +4,6 @@ import questapp.abk.business.requests.user.CreateAUserRequest;
 import questapp.abk.business.requests.user.UpdateUserRequest;
 import questapp.abk.business.response.user.GetAllUserResponses;
 import questapp.abk.business.response.user.GetByUserIdResponse;
-
 import java.util.List;
 
 public interface UserService {

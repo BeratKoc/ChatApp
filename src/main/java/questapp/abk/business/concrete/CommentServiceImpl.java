@@ -1,7 +1,6 @@
 package questapp.abk.business.concrete;
 
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Service;
 import questapp.abk.business.abstracts.CommentService;
 import questapp.abk.business.requests.comment.CreateACommentRequest;
@@ -12,7 +11,6 @@ import questapp.abk.business.response.comment.GetByCommentsIdResponse;
 import questapp.abk.core.utilities.mappers.ModelMapperService;
 import questapp.abk.dao.abstracts.CommentRepository;
 import questapp.abk.entities.Comment;
-
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;

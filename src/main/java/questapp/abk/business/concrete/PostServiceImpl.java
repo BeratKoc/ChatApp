@@ -1,5 +1,4 @@
 package questapp.abk.business.concrete;
-
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import questapp.abk.business.abstracts.PostService;
@@ -7,11 +6,9 @@ import questapp.abk.business.requests.post.CreatAPostRequest;
 import questapp.abk.business.requests.post.UpdateAPostRequest;
 import questapp.abk.business.response.post.GetAllPostResponses;
 import questapp.abk.business.response.post.GetByPostIdResponse;
-import questapp.abk.business.response.user.GetByUserIdResponse;
 import questapp.abk.core.utilities.mappers.ModelMapperService;
 import questapp.abk.dao.abstracts.PostRepository;
 import questapp.abk.entities.Post;
-
 import java.time.LocalDate;
 import java.util.List;
 import java.util.NoSuchElementException;

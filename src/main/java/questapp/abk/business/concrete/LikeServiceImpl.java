@@ -1,20 +1,15 @@
 package questapp.abk.business.concrete;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import org.springframework.stereotype.Service;
 import questapp.abk.business.abstracts.LikeService;
 import questapp.abk.business.requests.like.CreateALikeRequest;
 import questapp.abk.business.requests.like.UpdateALikeRequest;
-
 import questapp.abk.business.response.like.GetAllLikesResponses;
 import questapp.abk.business.response.like.GetByLikeIdResponse;
-
 import questapp.abk.core.utilities.mappers.ModelMapperService;
 import questapp.abk.dao.abstracts.LikeRepository;
 import questapp.abk.entities.Like;
-
-
 import java.util.List;
 @Service
 @AllArgsConstructor
